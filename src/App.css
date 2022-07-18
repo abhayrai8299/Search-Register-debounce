@@ -1,3 +1,7 @@
+*{
+  background-color: orange;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container-main {
+  display:flex;
+  justify-content: space-evenly;
+}
+.card-details
+{
+  width: 300px;
 }
 
 @keyframes App-logo-spin {
